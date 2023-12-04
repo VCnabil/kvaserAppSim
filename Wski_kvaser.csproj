@@ -78,6 +78,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_AzimthSliders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_AzimthSliders.Designer.cs">
+      <DependentUpon>UC_AzimthSliders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_CANMessageOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_CANMessageOut.Designer.cs">
+      <DependentUpon>UC_CANMessageOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_SteerEnginSliders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_SteerEnginSliders.Designer.cs">
+      <DependentUpon>UC_SteerEnginSliders.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,6 +108,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UC_AzimthSliders.resx">
+      <DependentUpon>UC_AzimthSliders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_CANMessageOut.resx">
+      <DependentUpon>UC_CANMessageOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_SteerEnginSliders.resx">
+      <DependentUpon>UC_SteerEnginSliders.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
