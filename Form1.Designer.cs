@@ -106,6 +106,7 @@
             this.uC_SteerEnginSliders2 = new Wski_kvaser.UC_SteerEnginSliders();
             this.uC_AzimthSliders1 = new Wski_kvaser.UC_AzimthSliders();
             this.uC_SteerEnginSliders1 = new Wski_kvaser.UC_SteerEnginSliders();
+            this.label4 = new System.Windows.Forms.Label();
             this.tb_canout_B.SuspendLayout();
             this.tb_canout_A.SuspendLayout();
             this.gb_CuinCtrl.SuspendLayout();
@@ -960,11 +961,21 @@
             this.uC_SteerEnginSliders1.Size = new System.Drawing.Size(630, 480);
             this.uC_SteerEnginSliders1.TabIndex = 23;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(757, 810);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(79, 29);
+            this.label4.TabIndex = 44;
+            this.label4.Text = "label4";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2480, 1595);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.cb_useInternal_A);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox3);
@@ -1100,6 +1111,7 @@
         private System.Windows.Forms.RadioButton rb_A_clutchFBK_AST2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox cb_useInternal_A;
+        private System.Windows.Forms.Label label4;
     }
 }
 

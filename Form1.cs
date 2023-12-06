@@ -333,7 +333,7 @@ namespace Wski_kvaser
 
             _data_FFD1_A[0] = B0;
         }
-   
+  
 
         private void checkbox_FBK_A_Changed(object sender, EventArgs e)
         {
@@ -423,7 +423,7 @@ namespace Wski_kvaser
 
         private void Timer2_CanSendSysinfo_Tick(object sender, EventArgs e)
         {
-
+            
 
             canManager.SendMessage(_png_SoftwareVersions_CU_A_FFD3, _data_FFD3_AB);
             canManager.SendMessage(_png_SoftwareVersions_CU_B_FFD3, _data_FFD3_AB);
@@ -435,7 +435,9 @@ namespace Wski_kvaser
         }
         private void Timer1_CanSEND_Tick(object sender, EventArgs e)
         {
+             
 
+             
             setysinfo();
 
             set_AZM_FFCB();
